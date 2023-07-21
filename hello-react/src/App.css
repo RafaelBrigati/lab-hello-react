@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero {
+  background-color: #282c34;
+  padding: 80px;
+  color: white;
+}
+
+.hero-top{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.hero-content{
+  display: flex;
+  text-align:left;
+  flex-direction: column;
+  width:500px;
+ 
+  font-size:22pt;
+}
+
+h1{
+  font-size: 56pt;
+}
+
+button{
+  height: 60px;
+  width: 160px;
+  font-size: 15pt;
+  border-radius: 8px;
+  font-weight: 900;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px, 400px;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+}
+
+
